@@ -8,7 +8,7 @@
     "server": "nodemon server/index.js",
     "client": "npm run dev --prefix client",
     "start": "concurrently \"npm run server\" \"npm run client\"",
-    "push": "git add . && git commit -m \"logout done by clearing access token\" && git push"
+    "push": "git add . && git commit -m \"access add\" && git push"
   },
   "keywords": [],
   "author": "",
